@@ -1,0 +1,20 @@
+{
+    "stonk": "GME",
+    "google_home": {
+        "ip": "192.168.10.22"
+    },
+    "hue": {
+        "username": "mTQ9zXEDKi8oBzfXSTp2bahwizDo-w0PmVP83itb",
+        "ip": "192.168.10.30",
+        "lights": {
+            "tv": [1, 2],
+            "coffee": [3]
+        }
+    },
+    "alert_on_jump": 3,
+    "alarm": {
+        "high": 290,
+        "low": 270
+    },
+    "stonk_endpoint": "https://query1.finance.yahoo.com/v8/finance/chart/{stonk}?region=US&lang=en-US&includePrePost=false&interval=30m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance"
+}
